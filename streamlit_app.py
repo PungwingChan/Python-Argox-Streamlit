@@ -28,8 +28,8 @@ ARGO_PORT = int(os.environ.get('ARGO_PORT', '9010'))   # Argo端口,使用固定
 CFIP = os.environ.get('CFIP', 'saas.sin.fan')             # 优选ip或优选域名
 CFPORT = int(os.environ.get('CFPORT', '443'))          # 优选ip或优选域名对应端口
 NAME = os.environ.get('NAME', 'Streamlit-US')                      # 节点名称
-CHAT_ID = os.environ.get('CHAT_ID', '6839843424')                # Telegram chat_id,推送节点到tg,两个变量同时填写才会推送
-BOT_TOKEN = os.environ.get('BOT_TOKEN', '8522009909:AAF-3TZ6LJwf1ZoCYbdNp7qOstPoS_PqwJw')            # Telegram bot_token
+CHAT_ID = os.environ.get('CHAT_ID', '')                # Telegram chat_id,推送节点到tg,两个变量同时填写才会推送
+BOT_TOKEN = os.environ.get('BOT_TOKEN', '')            # Telegram bot_token
 PORT = int(os.environ.get('SERVER_PORT') or os.environ.get('PORT') or 3000) # 订阅端口，如无法订阅，请手动修改为分配的端口
 
 # Create running folder
